@@ -1,10 +1,15 @@
+import random
 
 word_list = ["super", "mario", "computer"]
-import random
+
 from hangman_words import word_list
+
 end_of_game = False
+
 choose_word = random.choice(word_list)
+
 word_length = len(choose_word)
+
 lives = 6
 
 from hangman_art import logo
